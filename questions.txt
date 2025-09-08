@@ -1,0 +1,60 @@
+Calculated Table:
+
+1.Create a calculated table with only the orders where the Sales is greater than 1000.
+
+2.Create a calculated table that shows only orders placed in the year 2023.
+
+3.Create a calculated table that returns the top 5 sub-categories by Total Sales.
+
+4.Create a new table that shows the distinct combination of Customer Name and Region.
+
+Calculate():
+
+1.Calculate the average discount given to customers from the Corporate segment.
+
+2.Create a measure that returns Total Sales excluding California.
+
+3.Calculate the Total Quantity sold for orders with Sales greater than 500.
+
+4.Create a column  that returns sales only for Corporate segment 
+Row Level Security
+
+1.Create a role named "WestAndEast" that gives access to both West and East regions.
+
+2.Create a role called "SalesOver1000" that only shows orders where Sales > 1000.
+
+3.Create a role for "Corporate Users" to access only data where Segment = Corporate
+
+Measures:
+1.Create a measure to calculate the Average Sales per Order.
+2.Create a measure to count the Total Number of Orders.
+
+Statstical functions:
+1.Create a measure to calculate the standard deviation of sales.
+2.Create two separate measures to get the minimum and maximum sales values
+3.Create a measure to calculate the variance in profit values.
+4.Create a measure to calculate the median sales value.
+
+HIREARCHIES:
+1.Create a hierarchy using the Order Date field with the following levels:
+
+Year
+
+Quarter
+
+Month
+
+Day
+2.Using the Order Date hierarchy, show a line chart of Total Profit per Month, and enable drill up/down to Year level
+
+Q&A feature:
+1.Show total profit by category
+
+2.What was the sales in 2023?
+
+3.List top 5 sub-categories by sales
+
+Calculated Column:
+1.Extract the Year from the Order Date column using a calculated column.
+2.Create a column that returns "Weekend" if the Order Date is Saturday or Sunday.
+
